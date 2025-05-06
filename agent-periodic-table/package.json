@@ -1,0 +1,20 @@
+{
+  "name": "babel-agent-table",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://dayanadithyan.github.io/babel-agent-table",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0",
+    "typescript": "^4.9.5"
+  },
+  "scripts": {
+    "start": "serve public",
+    "build": "echo \"No build step—Babel runs in-browser\"",
+    "predeploy": "echo \"No build step\"",
+    "deploy": "gh-pages -d public"
+  }
+}
